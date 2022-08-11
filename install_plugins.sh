@@ -9,20 +9,14 @@
 #===================================================================================
 
 curl --silent --location https://git.io/fisher | source
-brew install terminal-notifier grc
 
 fisher install jorgebucaran/fisher
 fisher install edc/bass
-fisher install oh-my-fish/theme-bobthefish
 fisher install patrickf1/colored_man_pages.fish
-fisher install franciscolourenco/done
 fisher install oh-my-fish/plugin-grc
 fisher install jorgebucaran/nvm.fish
-fisher install oh-my-fish/plugin-pj
-fisher install markcial/upto
-
-set --universal --export theme_nerd_fonts yes
-set --universal --export theme_color_scheme zenburn
-set --universal --export PROJECT_PATHS ~/Library/Projects
+fisher install reitzig/sdkman-for-fish
+fisher install nickeb96/puffer-fish
+fisher install IlanCosman/tide@v5
 
 fish_update_completions
